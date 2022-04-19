@@ -19,7 +19,7 @@
       <!-- xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px -->
     <div class="container-fluid">
       <!-- nav bar -->
-        <div class="row gx-3">
+        <div class="row g-lg-3 g-sm-1">
           <div class="col">
             <div class=" p-4 bg-danger box-3">home</div>
           </div>
@@ -33,15 +33,20 @@
             <div class="p-4 bg-info box-3">help</div>
           </div>
         </div>
-        <!-- columns -->
-      <div class="row">
-        <div class="col gy-5 bg-info box p-4">
-          left column
+    </div>
+              <!-- columns -->
+    <div class="container">
+      <div class="row col-xs-2 g-sm-1 g-lg-5">
+        <!-- when columns hit breakingpoint 992px the width of the column will take 2 widths of the 12 -->
+        <div class="col">
+          <div class="p-4 bg-info box">left column</div>
         </div>
-        <div class="col gy-5 bg-danger box-2 p-4">
-          right column
+              <!-- right column -->
+        <div class="col">
+          <div class="p-4 bg-danger box">left column</div>
         </div>
       </div>
+    </div>
         <!-- footer -->
         <div class="row">
           <div class="col gy-5 bg-warning box-4">footer</div>
