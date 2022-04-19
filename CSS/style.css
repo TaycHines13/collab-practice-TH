@@ -1,0 +1,19 @@
+.box{
+    /* border:1px solid red; */
+    height:500px;
+}
+.box-2{
+    /* border:1px solid royalblue; */
+    height:500px
+}
+.box-3{
+    /* border:1px solid goldenrod; */
+    height:100px;
+}
+.box-4{
+    /* border:1px solid green; */
+    height:100px
+}
+/* .overflow-hidden{
+    border:1px solid red;
+} */
